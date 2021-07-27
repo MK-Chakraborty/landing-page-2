@@ -1,0 +1,103 @@
+/* ---------------------------------------- *\
+                    Fonts
+\* ----------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
+
+
+/* ---------------------------------------- *\
+                    Utilities
+\* ----------------------------------------- */
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+/* ---------------------------------------- *\
+              Header Section CSS
+\* ----------------------------------------- */
+
+.navbar-logo {
+    font-family: 'Pacifico', cursive !important;
+}
+
+.nav-margin {
+    margin-top: 66px !important;
+}
+
+.collapse ul li:hover a {
+    background: #ffc107;
+}
+
+.banner-overlay {
+    background-color: #120324cc;
+}
+
+
+/* ---------------------------------------- *\
+              Main Section CSS
+\* ----------------------------------------- */
+
+/* Service Section CSS */
+
+.service-item:hover .fas {
+    color: #ffc107;
+    transition: all linear 0.4s;
+}
+
+/* About section CSS */
+.about-padding {
+    padding: 12% !important;
+}
+
+/* Portfolio Section CSS */
+.navlink-active,
+.navlink li:hover a {
+    background: #ffc107 !important;
+    color: #ffffff !important;
+}
+
+/* Testimonial Section Css */
+
+.test-msg-w::after,
+.test-msg-d::after,
+.test-msg::after {
+    width: 30px;
+    height: 30px;
+    background:#6c757d;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 14px;
+    left: 14px;
+    content: '';
+}
+
+.test-msg-d::after {
+    background: #dc3545;
+}
+
+.test-msg-w::after {
+    background: #ffc107;
+}
+
+
+/* ---------------------------------------- *\
+              Footer Section CSS
+\* ----------------------------------------- */
+
+footer {
+    background: #273a43;
+}
+
+.footer-form {
+    background: #172227 !important;
+    color: #ffffff !important;
+    border: #273a43 !important;
+}
+
+.footer-form-btn {
+    background: #71b6d5 !important;
+    color: #ffffff !important;
+    border: #71b6d5 !important;
+}
